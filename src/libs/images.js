@@ -1,0 +1,21 @@
+import banilogo from "../images/banilogo.png";
+import errorpagepic from "../images/pageNotFound.png";
+import carousel1pic1 from "../images/carousel1-1.gif";
+import carousel1pic2 from "../images/carousel1-2.webp";
+import carousel1pic3 from "../images/carousel1-3.webp";
+import carousel2pic1 from "../images/carousel2-1.webp";
+import carousel2pic2 from "../images/carousel2-2.webp";
+import carousel2pic3 from "../images/carousel2-3.webp";
+import carousel3pic1 from "../images/carousel3-1.webp";
+import carousel3pic2 from "../images/carousel3-2.webp";
+import carousel3pic3 from "../images/carousel3-3.webp";
+import carousel4pic1 from "../images/carousel4-1.webp";
+import carousel4pic2 from "../images/carousel4-2.webp";
+import carousel4pic3 from "../images/carousel4-3.webp";
+
+export const baniLogo = banilogo;
+export const errorPagePic = errorpagepic;
+export const carousel1Pics = [carousel1pic1, carousel1pic2, carousel1pic3];
+export const carousel2Pics = [carousel2pic1, carousel2pic2, carousel2pic3];
+export const carousel3Pics = [carousel3pic1, carousel3pic2, carousel3pic3];
+export const carousel4Pics = [carousel4pic1, carousel4pic2, carousel4pic3];

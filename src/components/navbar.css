@@ -1,0 +1,99 @@
+header {
+  text-align: center;
+  background-color: #fff;
+  z-index: 8;
+  border-bottom: 1px solid #e6e6e6;
+  margin-bottom: 30px;
+}
+.navigationGeneral {
+  width: 1440px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 8px;
+  margin-bottom: 10px;
+}
+.cartButton {
+  background-color: #fff;
+  color: #000;
+  margin-left: 6px;
+  padding-left: 10px;
+  padding-right: 6px;
+  transition: all 0.2s;
+  font-size: 1.8rem;
+}
+.cartButton .badge {
+  background-color: #00bf6f;
+  border: none;
+  color: #fff;
+}
+.cartButton:hover {
+  color: #009657;
+}
+.loginButton {
+  display: flex;
+  align-items: center;
+  line-height: 44px;
+  border-radius: 28px;
+  padding: 0 24px;
+  border: none;
+  border: 0;
+  background: 0;
+  cursor: pointer;
+  color: #fff;
+  background-color: #00bf6f;
+  transition: 0.2s all;
+  margin-right: 6px;
+}
+.loginButton:hover {
+  background-color: #009657;
+}
+.searchBox {
+  flex-basis: 45%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+.searchBox form {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 28px;
+  background-color: #f5f5f5;
+}
+.searchBox .searchInput {
+  width: 75%;
+  line-height: 50px;
+  height: 50px;
+  background-color: #f5f5f5;
+  border: 0;
+  margin-right: 10px;
+  padding: 0;
+}
+.searchBox .searchIcon {
+  display: inline-flex;
+  align-items: center;
+  width: 26px;
+  height: 26px;
+  margin-right: 10px;
+  font-size: 1.4rem;
+}
+.banilogo {
+  flex-basis: 20%;
+  text-align: left;
+}
+
+.navMenu {
+  width: 1440px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  padding: 0 16px;
+}
+.navActive {
+  border-bottom: 2px solid #00bf6f;
+  padding-bottom: 10px;
+}

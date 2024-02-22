@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    background-color: white;
+    color: black;
+  }
+
+  @font-face {
+    font-family: "iranyekanwebregular";
+    src: url("./fonts/iranyekanwebregular.woff") format("woff");
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: "iranyekanwebregular", Helvetica, sans-serif;
+  }
+  input:focus,
+  button:focus {
+    outline: 0;
+  }
+  input {
+    background-color: #f5f5f5;
+    line-height: 40px;
+    border-radius: 28px;
+    width: 100%;
+  }
+}

@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.errorPage {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #00bf6f;
+  text-align: center;
+  overflow: hidden;
+}
+.errorPage img {
+  width: 40%;
+  /* height: 50%; */
+}
+.errorPage h3 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.errorPage button {
+  font-size: 1.5rem;
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 10px;
+  margin-top: 10px;
+}

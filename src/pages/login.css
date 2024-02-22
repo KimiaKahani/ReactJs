@@ -1,0 +1,27 @@
+.loginPage .submitButton {
+  display: flex;
+  align-items: center;
+  line-height: 44px;
+  border-radius: 28px;
+  padding: 0 24px;
+  margin-top: 10px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #00bf6f;
+  font-size: 1rem;
+}
+
+.loginPage .passInput input {
+  line-height: 0;
+}
+.loginPage .passInput {
+  padding: 0 20px;
+  background-color: #f5f5f5;
+  line-height: 40px;
+  border-radius: 28px;
+  width: 100%;
+}
+
+.isActive {
+  border-bottom: 3px solid #00bf6f;
+}
